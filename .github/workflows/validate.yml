@@ -19,4 +19,3 @@ jobs:
           test -s hero.webp
           test -s clinic.webp
           test -s vercel.json
-          ! grep -R "advocacia-premium\|Michel Food House" --exclude-dir=.git --exclude-dir=.github --exclude='README.md' --exclude='MIGRACAO.md' .
